@@ -1,0 +1,50 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+html {
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+ul,ol,li {
+    list-style: none;
+}
+
+b,strong {
+    font-weight: normal;
+}
+
+em, i {
+    font-style: normal;
+}
+
+s, u {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear_fix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.clear_fix {
+    zoom: 1;
+}
